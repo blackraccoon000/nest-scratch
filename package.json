@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "npx ts-node-dev -r tsconfig-paths/register src/main.ts"
+  },
   "dependencies": {
     "@nestjs/common": "7.6.17",
     "@nestjs/core": "7.6.17",
